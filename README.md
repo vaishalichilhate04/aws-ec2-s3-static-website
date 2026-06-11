@@ -11,7 +11,7 @@
              "Effect": "Allow", 
              "Principal": "*", 
              "Action": "s3:GetObject", 
-             "Resource": "arn:aws:s3:::mybucket8076795555/*" 
+             "Resource": "arn:aws:s3:::mybucket9584417244/*" 
          } 
      ] 
  } 
@@ -19,7 +19,7 @@
  5. launch EC2 - SSH  
  SG - http, https, ssh 
  ... 
- sudo yum update -y  
+  sudo yum update -y  
  sudo yum install httpd -y  
  sudo systemctl start httpd  
  sudo systemctl enable httpd  
