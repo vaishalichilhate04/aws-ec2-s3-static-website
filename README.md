@@ -2,7 +2,7 @@
  1. Create Bucket  
  2. Upload object - cat.jpg  
  3. Bucket Settings >> Permissions >> Update Bucket Policy  
- ''' 
+``` 
  { 
      "Version": "2012-10-17", 
      "Statement": [ 
@@ -16,11 +16,11 @@
      ] 
 
  }
- '''
+ ```
  4. Copy Object URL >> Paste in browser  
  5. launch EC2 - SSH  
  SG - http, https, ssh 
- ... 
+```
   sudo yum update -y  
  sudo yum install httpd -y  
  sudo systemctl start httpd  
@@ -29,9 +29,9 @@
  sudo chmod 755 /var/www/html  
  sudo touch index.html  
  sudo nano index.html  
-...  
- 6. copy and paste index.html code containing S3 Object URL  
- ...
+```
+ 6. copy and paste index.html code containing S3 Object URL
+```
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -412,6 +412,6 @@
 
 </body>
 </html>
-...
+```
   # aws-ec2-s3-static-website
 Hosting a Static Website with EC2 and S3
