@@ -2,7 +2,7 @@
  1. Create Bucket  
  2. Upload object - cat.jpg  
  3. Bucket Settings >> Permissions >> Update Bucket Policy  
-  
+ ''' 
  { 
      "Version": "2012-10-17", 
      "Statement": [ 
@@ -14,7 +14,9 @@
              "Resource": "arn:aws:s3:::mybucket9584417244/*" 
          } 
      ] 
- } 
+
+ }
+ '''
  4. Copy Object URL >> Paste in browser  
  5. launch EC2 - SSH  
  SG - http, https, ssh 
