@@ -1,8 +1,10 @@
 # 📦 Hosting a Static Website with EC2 and S3
 
 ---
-[aws-ec2-s3-static-wesite screenshot]https://github.com/vaishalichilhate04/aws-ec2-s3-static-website/blob/main/static%20website2.png
 
+![aws-ec2-s3-static-wesite screenshot]https://github.com/vaishalichilhate04/aws-ec2-s3-static-website/blob/main/static%20website2.png
+
+  
 🚀 **Project: Hosting a Static Website with Amazon EC2 & S3**
 
 I built and deployed a static website by leveraging **AWS EC2** for hosting and **Amazon S3** for storing and serving static assets. This project demonstrates how to integrate cloud compute and storage services to deliver a simple yet scalable web solution.
